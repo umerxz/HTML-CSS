@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(248, 233, 233);
+    margin: 2rem 3rem;
+}
+.w3school{
+    /* background-image: url('images.png'); */
+    height: 100px;
+    width: 100%;
+    border: 3px solid green;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+img{
+    margin:1rem;
+    border-radius: 50%;
+    border: 1rem dotted rgb(24, 144, 200);
+}
+ol > li{
+    color:rgb(95, 28, 90)
+}
+a{
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+h1,h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul > li{
+    color:rgb(1, 1, 215);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.row1col1,.row1col2,.row2col1,.row2col2{
+    width: 50%;
+    float: left;
+}
+.row3col1{
+    width: 100%;
+    /* float: left; */
+}
